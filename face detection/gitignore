@@ -1,0 +1,43 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.py
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# DeepFace model weights (downloaded automatically on first run)
+# Uncomment if you want to exclude them from the repo
+# .deepface/
+
+# Test/temp output
+*.tmp
+test_output/

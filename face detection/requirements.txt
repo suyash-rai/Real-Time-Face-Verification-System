@@ -1,0 +1,15 @@
+# Real-Time Face Verification System — Python dependencies
+# Install with:  python -m pip install -r requirements.txt
+# Tested with Python 3.12.x
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Deep Learning / Face Verification
+deepface>=0.0.93
+
+# Keras backend required by DeepFace / FaceNet
+tf-keras>=2.16.0
+
+# Numerical computation (transitive dep, listed explicitly for clarity)
+numpy>=1.24.0
